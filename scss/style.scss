@@ -1,0 +1,44 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Font
+$font-title: 'Montserrat', sans-serif;
+$font-body: 'Montserrat', sans-serif;;
+
+// Colors
+$main-color: #ffcd2b;
+$secondary-color: #1b252d;
+$gray1-color: #4d4d4d;
+$gray2-color: #707070;
+$gray3-color: #dddee0;
+
+// Import
+@import 'mobile';
+
+// START HERE
+// Main Style
+html,
+body {
+  font-family: $font-body;
+  background-color: $gray3-color;
+}
+
+hr {
+  margin: 0 !important;
+}
+
+// Header
+.header-main {
+  ul {
+    list-style: none;
+    padding-left: 0;
+    li {
+      padding-bottom: 10px;
+      a {
+        color: #000;
+      }
+    }
+  }
+} //.header-main
+
